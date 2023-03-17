@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+int a, b, c, d, e, f, g;
+cout << "Input the number -->" << endl;
+cin >> a;
+cout << "Input the number -->" << endl;
+cin >> b;
+cout << "Input the number -->" << endl;
+cin >> c;
+cout << "Input the number -->" << endl;
+cin >> d;
+cout << "Input the number -->" << endl;
+cin >> e;
+cout << "Input the number -->" << endl;
+cin >> f;
+cout << "Input the number -->" << endl;
+cin >> g;
+
+
+
+
+if (a < b)
+{
+    a = b;
+}
+if (a < c)
+{
+    a = c;
+}
+if (a < d)
+{
+    a = d;
+}
+if (a < e)
+{
+    a = e;
+}
+if (a < f)
+{
+    a = f;
+}
+if (a < g)
+{
+    a = g;
+}
+cout << "Max number is --> " << a && b && c && d && e && f && g;
+
+}

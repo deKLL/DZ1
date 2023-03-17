@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout << "enter four-digit number --> " << endl;
+    cin >> num;
+    if (num < 1000 || num > 9999) {
+        cout << "error" << endl;
+
+    }
+    int first = num / 1000;
+    int second = (num / 100) % 10;
+    int third = (num / 10) % 10;
+    int fourth = num % 10;
+    int newNum = second * 1000 + first * 100 + fourth * 10 + third;
+    cout << "new number -->" << newNum << endl;
+
+
+
+}
